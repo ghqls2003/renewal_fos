@@ -8,14 +8,10 @@ import Loadable from 'ui-component/Loadable';
 const DashboardDefault = Loadable(lazy(() => import('views/dashboard/Default')));
 
 // utilities routing
-const UtilsTypography = Loadable(lazy(() => import('views/utilities/Typography')));
-const UtilsColor = Loadable(lazy(() => import('views/utilities/Color')));
-const UtilsShadow = Loadable(lazy(() => import('views/utilities/Shadow')));
-const UtilsMaterialIcons = Loadable(lazy(() => import('views/utilities/MaterialIcons')));
-const UtilsTablerIcons = Loadable(lazy(() => import('views/utilities/TablerIcons')));
-
-// sample page routing
-const SamplePage = Loadable(lazy(() => import('views/sample-page')));
+const Photo1016 = Loadable(lazy(() => import('views/utilities/Photo1016')));
+const UtilsColor = Loadable(lazy(() => import('views/utilities/Video1016')));
+const AfterPhoto2016 = Loadable(lazy(() => import('views/utilities/AfterPhoto2016')));
+const AfterVideo2016 = Loadable(lazy(() => import('views/utilities/AfterVideo2016')));
 
 // ==============================|| MAIN ROUTING ||============================== //
 
@@ -40,8 +36,8 @@ const MainRoutes = {
       path: 'utils',
       children: [
         {
-          path: 'util-typography',
-          element: <UtilsTypography />
+          path: 'Photo1016',
+          element: <Photo1016 />
         }
       ]
     },
@@ -49,7 +45,7 @@ const MainRoutes = {
       path: 'utils',
       children: [
         {
-          path: 'util-color',
+          path: 'Video1016',
           element: <UtilsColor />
         }
       ]
@@ -58,32 +54,19 @@ const MainRoutes = {
       path: 'utils',
       children: [
         {
-          path: 'util-shadow',
-          element: <UtilsShadow />
+          path: 'AfterPhoto2016',
+          element: <AfterPhoto2016 />
         }
       ]
     },
     {
-      path: 'icons',
+      path: 'utils',
       children: [
         {
-          path: 'tabler-icons',
-          element: <UtilsTablerIcons />
+          path: 'AfterVideo2016',
+          element: <AfterVideo2016 />
         }
       ]
-    },
-    {
-      path: 'icons',
-      children: [
-        {
-          path: 'material-icons',
-          element: <UtilsMaterialIcons />
-        }
-      ]
-    },
-    {
-      path: 'sample-page',
-      element: <SamplePage />
     }
   ]
 };

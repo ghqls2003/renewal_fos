@@ -1,68 +1,50 @@
 // assets
-import { IconTypography, IconPalette, IconShadow, IconWindmill } from '@tabler/icons';
+import { IconPhoto, IconVideo } from '@tabler/icons';
 
 // constant
 const icons = {
-  IconTypography,
-  IconPalette,
-  IconShadow,
-  IconWindmill
+  IconPhoto,
+  IconVideo
 };
 
 // ==============================|| UTILITIES MENU ITEMS ||============================== //
 
 const utilities = {
   id: 'utilities',
-  title: 'Utilities',
+  title: 'Album',
   type: 'group',
   children: [
     {
-      id: 'util-typography',
-      title: 'Typography',
+      id: 'Photo1016',
+      title: '2010-2016(Photo)',
       type: 'item',
-      url: '/utils/util-typography',
-      icon: icons.IconTypography,
+      url: '/utils/Photo1016',
+      icon: icons.IconPhoto,
       breadcrumbs: false
     },
     {
-      id: 'util-color',
-      title: 'Color',
+      id: 'Video1016',
+      title: '2010-2016(Video)',
       type: 'item',
-      url: '/utils/util-color',
-      icon: icons.IconPalette,
+      url: '/utils/Video1016',
+      icon: icons.IconVideo,
       breadcrumbs: false
     },
     {
-      id: 'util-shadow',
-      title: 'Shadow',
+      id: 'AfterPhoto2016',
+      title: '2016 After(Photo)',
       type: 'item',
-      url: '/utils/util-shadow',
-      icon: icons.IconShadow,
+      url: '/utils/AfterPhoto2016',
+      icon: icons.IconPhoto,
       breadcrumbs: false
     },
     {
-      id: 'icons',
-      title: 'Icons',
-      type: 'collapse',
-      icon: icons.IconWindmill,
-      children: [
-        {
-          id: 'tabler-icons',
-          title: 'Tabler Icons',
-          type: 'item',
-          url: '/icons/tabler-icons',
-          breadcrumbs: false
-        },
-        {
-          id: 'material-icons',
-          title: 'Material Icons',
-          type: 'item',
-          external: true,
-          target: '_blank',
-          url: 'https://mui.com/material-ui/material-icons/',
-          breadcrumbs: false
-        }
-      ]
+      id: 'AfterVideo2016',
+      title: '2016 After(Video)',
+      type: 'item',
+      url: '/utils/AfterVideo2016',
+      icon: icons.IconVideo,
+      breadcrumbs: false
     }
   ]
 };

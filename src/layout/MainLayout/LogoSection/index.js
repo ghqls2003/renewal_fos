@@ -17,6 +17,7 @@ const LogoSection = () => {
   return (
     <ButtonBase disableRipple onClick={() => dispatch({ type: MENU_OPEN, id: defaultId })} component={Link} to={config.defaultPath}>
       <Logo />
+      <b>Full Of Sunshine</b>
     </ButtonBase>
   );
 };
