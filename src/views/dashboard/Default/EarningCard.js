@@ -103,17 +103,17 @@ const EarningCard = ({ isLoading }) => {
                           <ArrowUpwardIcon fontSize="inherit" sx={{ transform: 'rotate3d(1, 1, 1, 45deg)' }} />
                         </Avatar>
                       </Grid>
-                      <Grid item sx={{ mb: 1.25 }}>
-                        <Typography
-                          sx={{
-                            fontSize: '1rem',
-                            fontWeight: 500,
-                            color: theme.palette.secondary[200]
-                          }}
-                        >
-                          Total Income
-                        </Typography>
-                      </Grid>
+                    </Grid>
+                    <Grid item sx={{ mb: 1.25 }}>
+                      <Typography
+                        sx={{
+                          fontSize: '1rem',
+                          fontWeight: 500,
+                          color: theme.palette.secondary[200]
+                        }}
+                      >
+                        Total Income
+                      </Typography>
                     </Grid>
                   </Grid>
                   <Grid item xs={6}>
