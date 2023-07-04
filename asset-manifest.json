@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/renewal_fos/static/css/main.df3b6d63.css",
+    "main.js": "/renewal_fos/static/js/main.3d867d42.js",
+    "static/js/542.07c95105.chunk.js": "/renewal_fos/static/js/542.07c95105.chunk.js",
+    "static/js/565.61da7219.chunk.js": "/renewal_fos/static/js/565.61da7219.chunk.js",
+    "static/js/603.29ccca92.chunk.js": "/renewal_fos/static/js/603.29ccca92.chunk.js",
+    "static/js/801.0f702dcb.chunk.js": "/renewal_fos/static/js/801.0f702dcb.chunk.js",
+    "static/js/573.a7607212.chunk.js": "/renewal_fos/static/js/573.a7607212.chunk.js",
+    "static/js/271.3c253cb9.chunk.js": "/renewal_fos/static/js/271.3c253cb9.chunk.js",
+    "static/js/971.677728e4.chunk.js": "/renewal_fos/static/js/971.677728e4.chunk.js",
+    "static/js/411.893c1e19.chunk.js": "/renewal_fos/static/js/411.893c1e19.chunk.js",
+    "static/js/354.2054df5b.chunk.js": "/renewal_fos/static/js/354.2054df5b.chunk.js",
+    "static/js/224.5bc14e72.chunk.js": "/renewal_fos/static/js/224.5bc14e72.chunk.js",
+    "static/js/317.10be2563.chunk.js": "/renewal_fos/static/js/317.10be2563.chunk.js",
+    "static/media/user-round.svg": "/renewal_fos/static/media/user-round.13b5a31bebd2cc6016d6db2cac8e92d1.svg",
+    "index.html": "/renewal_fos/index.html",
+    "static/media/social-google.svg": "/renewal_fos/static/media/social-google.9887eb8eb43729cb99f402cfa0de3c44.svg",
+    "static/media/earning.svg": "/renewal_fos/static/media/earning.b019e86a7ee117bd6bb2e8cab90c0db5.svg"
+  },
+  "entrypoints": [
+    "static/css/main.df3b6d63.css",
+    "static/js/main.3d867d42.js"
+  ]
+}
