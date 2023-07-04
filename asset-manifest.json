@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/renewal_fos/static/css/main.df3b6d63.css",
-    "main.js": "/renewal_fos/static/js/main.54e99889.js",
-    "static/js/542.fe82860e.chunk.js": "/renewal_fos/static/js/542.fe82860e.chunk.js",
+    "main.js": "/renewal_fos/static/js/main.35a28e1d.js",
+    "static/js/297.aa99fb95.chunk.js": "/renewal_fos/static/js/297.aa99fb95.chunk.js",
     "static/js/889.62c70725.chunk.js": "/renewal_fos/static/js/889.62c70725.chunk.js",
     "static/js/120.fc6b9201.chunk.js": "/renewal_fos/static/js/120.fc6b9201.chunk.js",
     "static/js/816.3b7d5da7.chunk.js": "/renewal_fos/static/js/816.3b7d5da7.chunk.js",
     "static/js/780.8a2af04b.chunk.js": "/renewal_fos/static/js/780.8a2af04b.chunk.js",
-    "static/js/25.bff3d674.chunk.js": "/renewal_fos/static/js/25.bff3d674.chunk.js",
+    "static/js/608.9e218380.chunk.js": "/renewal_fos/static/js/608.9e218380.chunk.js",
     "static/media/sunshine.jpg": "/renewal_fos/static/media/sunshine.633c8d2080744721d3b4.jpg",
     "static/media/ryong.jpg": "/renewal_fos/static/media/ryong.903f1b232702e4ac1c8e.jpg",
     "index.html": "/renewal_fos/index.html",
@@ -15,6 +15,6 @@
   },
   "entrypoints": [
     "static/css/main.df3b6d63.css",
-    "static/js/main.54e99889.js"
+    "static/js/main.35a28e1d.js"
   ]
 }
