@@ -1,4 +1,4 @@
-// ===========================|| DASHBOARD - TOTAL ORDER MONTH CHART ||=========================== //
+// ===========================|| DASHBOARD - TOTAL ORDER YEAR CHART ||=========================== //
 
 const chartData = {
   type: 'line',
@@ -23,7 +23,7 @@ const chartData = {
     },
     yaxis: {
       min: 0,
-      max: 100
+      max: 300000
     },
     tooltip: {
       theme: 'dark',
@@ -41,10 +41,11 @@ const chartData = {
       }
     }
   },
+  labels: ['1월', '2월', '3월', '4월', '5월', '6월', '7월', '8월', '9월', '10월', '11월', '12월'],
   series: [
     {
-      name: 'series1',
-      data: [45, 66, 41, 89, 25, 44, 9, 54]
+      name: '월...여기 해야한다',
+      data: [90000, 210000, 30000, 30000, 20000, 40000, 110000, 0, 0, 0, 0, 0]
     }
   ]
 };
