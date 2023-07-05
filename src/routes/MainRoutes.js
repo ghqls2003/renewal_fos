@@ -12,6 +12,7 @@ const Photo1016 = Loadable(lazy(() => import('views/utilities/Photo1016')));
 const UtilsColor = Loadable(lazy(() => import('views/utilities/Video1016')));
 const AfterPhoto2016 = Loadable(lazy(() => import('views/utilities/AfterPhoto2016')));
 const AfterVideo2016 = Loadable(lazy(() => import('views/utilities/AfterVideo2016')));
+const SourceRoot = Loadable(lazy(() => import('views/other/SourceRoot')));
 
 // ==============================|| MAIN ROUTING ||============================== //
 
@@ -65,6 +66,15 @@ const MainRoutes = {
         {
           path: 'AfterVideo2016',
           element: <AfterVideo2016 />
+        }
+      ]
+    },
+    {
+      path: 'other',
+      children: [
+        {
+          path: 'SourceRoot',
+          element: <SourceRoot />
         }
       ]
     }

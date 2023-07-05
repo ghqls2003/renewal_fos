@@ -15,7 +15,6 @@ import ChartDataYear from './chart-data/total-order-year-line-chart';
 
 // assets
 import LocalMallOutlinedIcon from '@mui/icons-material/LocalMallOutlined';
-import ArrowDownwardIcon from '@mui/icons-material/ArrowDownward';
 
 const CardWrapper = styled(MainCard)(({ theme }) => ({
   backgroundColor: theme.palette.primary.dark,
@@ -61,7 +60,7 @@ const CardWrapper = styled(MainCard)(({ theme }) => ({
 
 // ==============================|| DASHBOARD - TOTAL ORDER LINE CHART CARD ||============================== //
 
-const TotalOrderLineChartCard = ({ isLoading }) => {
+const TotalOrderLineChartCard = ({ isLoading, expend }) => {
   const theme = useTheme();
 
   return (
@@ -96,19 +95,9 @@ const TotalOrderLineChartCard = ({ isLoading }) => {
                   <Grid item xs={6}>
                     <Grid container alignItems="center">
                       <Grid item>
-                        <Typography sx={{ fontSize: '2.125rem', fontWeight: 500, mr: 1, mt: 1.75, mb: 0.75 }}>500원</Typography>
-                      </Grid>
-                      <Grid item>
-                        <Avatar
-                          sx={{
-                            ...theme.typography.smallAvatar,
-                            cursor: 'pointer',
-                            backgroundColor: theme.palette.primary[200],
-                            color: theme.palette.primary.dark
-                          }}
-                        >
-                          <ArrowDownwardIcon fontSize="inherit" sx={{ transform: 'rotate3d(1, 1, 1, 45deg)' }} />
-                        </Avatar>
+                        <Typography sx={{ fontSize: '2.125rem', fontWeight: 500, mr: 1, mt: 1.75, mb: 0.75 }}>
+                          {expend.toLocaleString()}원
+                        </Typography>
                       </Grid>
                       <Grid item xs={12}>
                         <Typography
@@ -118,7 +107,7 @@ const TotalOrderLineChartCard = ({ isLoading }) => {
                             color: theme.palette.primary[200]
                           }}
                         >
-                          Total Expenditure
+                          총 지출
                         </Typography>
                       </Grid>
                     </Grid>
@@ -137,7 +126,8 @@ const TotalOrderLineChartCard = ({ isLoading }) => {
 };
 
 TotalOrderLineChartCard.propTypes = {
-  isLoading: PropTypes.bool
+  isLoading: PropTypes.bool,
+  expend: PropTypes.node
 };
 
 export default TotalOrderLineChartCard;

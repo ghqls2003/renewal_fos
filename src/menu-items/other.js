@@ -12,12 +12,11 @@ const other = {
   children: [
     {
       id: 'documentation',
-      title: 'Documentation',
+      title: 'SourceRoot',
       type: 'item',
-      url: 'https://codedthemes.gitbook.io/berry/',
+      url: '/other/SourceRoot',
       icon: icons.IconHelp,
-      external: true,
-      target: true
+      breadcrumbs: false
     }
   ]
 };

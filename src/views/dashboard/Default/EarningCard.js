@@ -15,7 +15,6 @@ import ChartDataYear from './chart-data/total-income-year-line-chart';
 
 // assets
 import EarningIcon from 'assets/images/icons/earning.svg';
-import ArrowUpwardIcon from '@mui/icons-material/ArrowUpward';
 
 const CardWrapper = styled(MainCard)(({ theme }) => ({
   backgroundColor: theme.palette.secondary.dark,
@@ -55,7 +54,7 @@ const CardWrapper = styled(MainCard)(({ theme }) => ({
 
 // ===========================|| DASHBOARD DEFAULT - EARNING CARD ||=========================== //
 
-const EarningCard = ({ isLoading }) => {
+const EarningCard = ({ isLoading, income }) => {
   const theme = useTheme();
 
   return (
@@ -89,19 +88,9 @@ const EarningCard = ({ isLoading }) => {
                   <Grid item xs={6}>
                     <Grid container alignItems="center">
                       <Grid item>
-                        <Typography sx={{ fontSize: '2.125rem', fontWeight: 500, mr: 1, mt: 1.75, mb: 0.75 }}>500원</Typography>
-                      </Grid>
-                      <Grid item>
-                        <Avatar
-                          sx={{
-                            cursor: 'pointer',
-                            ...theme.typography.smallAvatar,
-                            backgroundColor: theme.palette.secondary[200],
-                            color: theme.palette.secondary.dark
-                          }}
-                        >
-                          <ArrowUpwardIcon fontSize="inherit" sx={{ transform: 'rotate3d(1, 1, 1, 45deg)' }} />
-                        </Avatar>
+                        <Typography sx={{ fontSize: '2.125rem', fontWeight: 500, mr: 1, mt: 1.75, mb: 0.75 }}>
+                          {income.toLocaleString()}원
+                        </Typography>
                       </Grid>
                     </Grid>
                     <Grid item sx={{ mb: 1.25 }}>
@@ -112,7 +101,7 @@ const EarningCard = ({ isLoading }) => {
                           color: theme.palette.secondary[200]
                         }}
                       >
-                        Total Income
+                        총 수입
                       </Typography>
                     </Grid>
                   </Grid>
@@ -130,7 +119,8 @@ const EarningCard = ({ isLoading }) => {
 };
 
 EarningCard.propTypes = {
-  isLoading: PropTypes.bool
+  isLoading: PropTypes.bool,
+  income: PropTypes.node
 };
 
 export default EarningCard;

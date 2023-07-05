@@ -23,7 +23,7 @@ const chartData = {
     },
     yaxis: {
       min: 0,
-      max: 100
+      max: 500000
     },
     tooltip: {
       theme: 'dark',
@@ -43,8 +43,8 @@ const chartData = {
   },
   series: [
     {
-      name: 'series1',
-      data: [35, 44, 9, 54, 45, 66, 41, 69, 0, 0, 0, 0]
+      name: '',
+      data: [0, 0, 0, 200000, 340160, 0, 0, 0, 0, 0, 0, 0]
     }
   ]
 };

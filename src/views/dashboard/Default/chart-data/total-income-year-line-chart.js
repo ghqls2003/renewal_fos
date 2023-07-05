@@ -1,5 +1,3 @@
-// ===========================|| DASHBOARD - TOTAL ORDER YEAR CHART ||=========================== //
-
 const chartData = {
   type: 'line',
   height: 90,
@@ -34,7 +32,10 @@ const chartData = {
         show: false
       },
       y: {
-        title: 'Total Order'
+        formatter: undefined,
+        title: {
+          formatter: (seriesName) => seriesName
+        }
       },
       marker: {
         show: false
@@ -43,9 +44,8 @@ const chartData = {
   },
   series: [
     {
-      name: '월...여기 해야한다',
-      labels: ['1월', '2월', '3월', '4월', '5월', '6월', '7월', '8월', '9월', '10월', '11월', '12월'],
-      data: [90000, 210000, 30000, 30000, 20000, 40000, 110000, 0, 0, 0, 0, 0]
+      name: '',
+      data: [90029, 210038, 30044, 30048, 20020, 40969, 110000, 0, 0, 0, 0, 0]
     }
   ]
 };
