@@ -82,7 +82,7 @@ const EarningCard = ({ isLoading, income }) => {
                   </Grid>
                 </Grid>
               </Grid>
-              Now Year
+              2023년
               <Grid>
                 <Grid container alignItems="center">
                   <Grid item xs={6}>

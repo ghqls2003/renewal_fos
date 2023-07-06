@@ -89,7 +89,7 @@ const TotalOrderLineChartCard = ({ isLoading, expend }) => {
                   </Grid>
                 </Grid>
               </Grid>
-              Now Year
+              2023년
               <Grid item sx={{ mb: 0.75 }}>
                 <Grid container alignItems="center">
                   <Grid item xs={6}>
